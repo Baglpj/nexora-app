@@ -1,0 +1,6 @@
+{
+  "summary": "Plan d'architecture révisé intégrant la séparation étanche user-app vs admin-app, la suppression du niveau global/vies au profit des statistiques individuelles par jeu, la barre de recherche universelle avec filtres par catégorie, le module de paiement mobile réel (Wave, Moov, MTN, CB), le feed social gaming style TikTok/Instagram avec likes et commentaires, et le gestionnaire de thèmes par presets de l'administration (YouTube, TikTok, Instagram, WhatsApp, etc.).",
+  "updatedAt": "2026-09-29T20:13:28.971526316Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

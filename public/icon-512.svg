@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="url(#gold)" stroke-width="6" opacity="0.4"/>
+  <!-- NEXORA stylized N logo -->
+  <path d="M140 370 L140 142 L230 142 L340 310 L340 142 L372 142 L372 370 L282 370 L172 202 L172 370 Z" fill="url(#gold)" filter="drop-shadow(0 0 12px rgba(245,158,11,0.5))"/>
+  <!-- Glowing gem accent -->
+  <polygon points="256,220 286,256 256,292 226,256" fill="url(#cyan)" opacity="0.9" filter="drop-shadow(0 0 8px rgba(6,182,212,0.8))"/>
+</svg>

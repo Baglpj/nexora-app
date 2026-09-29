@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA — Gaming & Social Android",
+  "description": "Plateforme mobile Android de jeux d'action, multijoueur coopératif, économie virtuelle, inventaire et copilote IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
