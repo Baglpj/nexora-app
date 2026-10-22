@@ -166,7 +166,7 @@ export const AndroidFrame: React.FC<AndroidFrameProps> = ({ children }) => {
         {viewMode === 'mobile-frame' ? (
           // Android Phone Shell
           <div
-            className={`relative w-full max-w-[425px] h-[890px] max-h-[92vh] rounded-[44px] shadow-2xl flex flex-col overflow-hidden border-[8px] transition-colors ${
+            className={`relative w-full max-w-[425px] h-[890px] max-h-[calc(100dvh-74px)] sm:max-h-[92vh] rounded-[28px] sm:rounded-[44px] shadow-2xl flex flex-col overflow-hidden border-[8px] transition-colors ${
               isLight
                 ? 'bg-slate-50 border-slate-300 shadow-slate-400/30 ring-1 ring-slate-300'
                 : 'bg-slate-950 border-slate-850 shadow-cyan-950/40 ring-1 ring-slate-700/50'

@@ -17,7 +17,7 @@ export const UserBottomNav: React.FC = () => {
 
   return (
     <nav
-      className={`px-3 py-2 border-t z-20 backdrop-blur-xl shrink-0 transition-colors ${
+      className={`px-2 pt-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))] border-t z-20 backdrop-blur-xl shrink-0 transition-colors ${
         isLight
           ? 'bg-white/95 border-slate-200 text-slate-700 shadow-sm'
           : 'bg-slate-950/90 border-slate-800/80 text-slate-300'

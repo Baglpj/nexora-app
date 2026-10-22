@@ -144,7 +144,8 @@ export const UserHeader: React.FC = () => {
           >
             <Zap className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
             <span className="font-mono font-bold text-[11px]">
-              {currentUser.currentXp.toLocaleString('fr-FR')} XP
+              <span className="sm:hidden">{currentUser.currentXp.toLocaleString('fr-FR')}</span>
+              <span className="hidden sm:inline">{currentUser.currentXp.toLocaleString('fr-FR')} XP</span>
             </span>
             <PlusCircle className="w-3 h-3 text-amber-500 opacity-80" />
           </button>

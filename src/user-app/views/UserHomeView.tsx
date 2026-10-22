@@ -38,7 +38,7 @@ export const UserHomeView: React.FC = () => {
   });
 
   return (
-    <div className="flex-1 overflow-y-auto p-4 space-y-5 no-scrollbar pb-10">
+    <div className="flex-1 overflow-y-auto px-3 py-3 sm:p-4 space-y-4 sm:space-y-5 no-scrollbar pb-8 sm:pb-10">
       {/* Hero Spotlight Game Banner */}
       {heroMission && (
         <div className="relative rounded-3xl overflow-hidden border border-amber-500/40 shadow-2xl p-5 bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 text-white">
