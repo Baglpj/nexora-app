@@ -47,14 +47,14 @@ export const UserHeader: React.FC = () => {
         borderColor: isLight ? '#e2e8f0' : 'rgba(51, 65, 85, 0.6)',
       }}
     >
-      {/* Top Row: Nexora Drawer, Profile Avatar, Quick Search Trigger, Balances */}
+      {/* Top Row: Mon Kokiko Drawer, Profile Avatar, Quick Search Trigger, Balances */}
       <div className="flex items-center justify-between gap-2">
         {/* Left: Nexora Logo + User Profile */}
         <div className="flex items-center gap-2 min-w-0">
           <button
             onClick={toggleDrawer}
             className="flex items-center justify-center p-1 rounded-xl hover:opacity-85 active:scale-95 transition-all group"
-            title="Menu NEXORA"
+            title="Menu Mon Kokiko"
           >
             <div
               className="w-8 h-8 rounded-xl flex items-center justify-center shadow-md p-0.5"
@@ -158,7 +158,7 @@ export const UserHeader: React.FC = () => {
                 ? 'bg-slate-100 border-slate-200 text-slate-800'
                 : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800'
             }`}
-            title="Pièces NEX"
+            title="Pièces Mon Kokiko"
           >
             <span className="text-xs">🪙</span>
             <span className="font-mono font-bold text-[11px]">
@@ -252,7 +252,7 @@ export const UserHeader: React.FC = () => {
         >
           <Search className="w-3.5 h-3.5 text-slate-400" />
           <span className="text-xs flex-1 truncate">
-            Rechercher un jeu, un tournoi ou un joueur...
+            Rechercher un jeu, une vidéo ou un joueur...
           </span>
           <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800/80 text-slate-400 hidden sm:inline">
             Filtres

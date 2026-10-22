@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNexora } from '../../context/NexoraContext';
-import { Home, Flame, Trophy, ShoppingBag, User } from 'lucide-react';
+import { Gamepad2, Clapperboard, MessageCircle, User } from 'lucide-react';
 
 export const UserBottomNav: React.FC = () => {
   const { activeTab, setActiveTab, colorMode, activeThemePreset } = useNexora();
@@ -8,10 +8,9 @@ export const UserBottomNav: React.FC = () => {
   const isLight = colorMode === 'light';
 
   const navItems = [
-    { id: 'home', label: 'Accueil', icon: Home },
-    { id: 'feed', label: 'Social', icon: Flame, badge: 'Nouveau' },
-    { id: 'missions', label: 'Tournois', icon: Trophy },
-    { id: 'shop', label: 'Boutique', icon: ShoppingBag },
+    { id: 'home', label: 'Gaming', icon: Gamepad2 },
+    { id: 'feed', label: 'Réels', icon: Clapperboard, badge: 'Nouveau' },
+    { id: 'messages', label: 'Messages', icon: MessageCircle },
     { id: 'profile', label: 'Profil', icon: User },
   ];
 

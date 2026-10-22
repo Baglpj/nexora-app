@@ -8,8 +8,8 @@ import { MobileCheckoutModal } from './components/MobileCheckoutModal';
 import { CreatePostModal } from './components/CreatePostModal';
 import { UserHomeView } from './views/UserHomeView';
 import { UserFeedView } from './views/UserFeedView';
-import { UserShopView } from './views/UserShopView';
 import { UserProfileView } from './views/UserProfileView';
+import { UserMessagesView } from './views/UserMessagesView';
 import { MissionsView } from '../views/MissionsView';
 import { LobbyModal } from '../components/LobbyModal';
 import { NexoraDrawer } from '../components/NexoraDrawer';
@@ -45,8 +45,8 @@ export const UserAppRoot: React.FC = () => {
         <main className="flex-1 flex flex-col overflow-hidden relative">
           {activeTab === 'home' && <UserHomeView />}
           {activeTab === 'feed' && <UserFeedView />}
+          {activeTab === 'messages' && <UserMessagesView />}
           {activeTab === 'missions' && <MissionsView />}
-          {activeTab === 'shop' && <UserShopView />}
           {activeTab === 'profile' && <UserProfileView />}
         </main>
 
